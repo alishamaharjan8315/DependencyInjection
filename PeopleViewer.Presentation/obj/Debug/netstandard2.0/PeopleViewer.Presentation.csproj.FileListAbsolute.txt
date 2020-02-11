@@ -1,0 +1,13 @@
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\bin\Debug\netstandard2.0\PeopleViewer.Presentation.deps.json
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\bin\Debug\netstandard2.0\PeopleViewer.Presentation.dll
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\bin\Debug\netstandard2.0\PeopleViewer.Presentation.pdb
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\bin\Debug\netstandard2.0\PeopleViewer.Common.dll
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\bin\Debug\netstandard2.0\PersonDataReader.Service.dll
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\bin\Debug\netstandard2.0\PersonDataReader.Service.pdb
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\bin\Debug\netstandard2.0\PeopleViewer.Common.pdb
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.csprojAssemblyReference.cache
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.AssemblyInfoInputs.cache
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.AssemblyInfo.cs
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.csproj.CopyComplete
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.dll
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.Presentation\obj\Debug\netstandard2.0\PeopleViewer.Presentation.pdb
