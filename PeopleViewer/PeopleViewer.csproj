@@ -95,9 +95,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PeopleViewer.Common\PeopleViewer.Common.csproj">
+      <Project>{59DB5C8D-05D0-42F6-9634-F12B0FF6976D}</Project>
+      <Name>PeopleViewer.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PeopleViewer.Presentation\PeopleViewer.Presentation.csproj">
       <Project>{023C5CF4-B319-4E99-8668-DFB6BD02053F}</Project>
       <Name>PeopleViewer.Presentation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersonDataReader.Service\PersonDataReader.Service.csproj">
+      <Project>{B0AEAA54-516E-4129-99A3-73CB0C2DC4D8}</Project>
+      <Name>PersonDataReader.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

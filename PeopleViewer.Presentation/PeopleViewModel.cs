@@ -15,9 +15,9 @@ namespace PeopleViewer.Presentation
         private IEnumerable<Person> _people;
         public IEnumerable<Person> People;
 
-        public PeopleViewModel()
+        public PeopleViewModel(IPersonReader dataReader)
         {
-            DataReader = new ServiceReader();
+            DataReader = dataReader; //Constructor Dependency Injection
         }
         public void RefreshPeople()
         {
