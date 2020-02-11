@@ -1,0 +1,17 @@
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\bin\Debug\PeopleViewer.View.dll
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\bin\Debug\PeopleViewer.View.pdb
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\bin\Debug\PeopleViewer.Common.dll
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\bin\Debug\PeopleViewer.Presentation.dll
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\bin\Debug\PeopleViewer.Common.pdb
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\bin\Debug\PeopleViewer.Presentation.pdb
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\obj\Debug\PeopleViewer.View.csprojAssemblyReference.cache
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\obj\Debug\PeopleViewerWindow.g.cs
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\obj\Debug\PeopleViewer.View_MarkupCompile.cache
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\obj\Debug\PeopleViewer.View_MarkupCompile.lref
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\obj\Debug\PeopleViewerWindow.baml
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\obj\Debug\PeopleViewer.View.g.resources
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\obj\Debug\PeopleViewer.View.Properties.Resources.resources
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\obj\Debug\PeopleViewer.View.csproj.GenerateResource.cache
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\obj\Debug\PeopleViewer.View.csproj.CopyComplete
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\obj\Debug\PeopleViewer.View.dll
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer.View\obj\Debug\PeopleViewer.View.pdb

@@ -60,7 +60,7 @@ namespace PeopleViewer {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PeopleViewer;component/peopleviewerwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PeopleViewer.View;component/peopleviewerwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\PeopleViewerWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

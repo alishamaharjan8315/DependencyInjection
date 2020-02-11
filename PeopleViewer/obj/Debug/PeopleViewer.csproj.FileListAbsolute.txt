@@ -8,10 +8,6 @@ G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\bin\Debug
 G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\bin\Debug\PeopleViewer.Common.dll
 G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\bin\Debug\PeopleViewer.Presentation.pdb
 G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\bin\Debug\PeopleViewer.Common.pdb
-G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\obj\Debug\PeopleViewerWindow.g.cs
-G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\obj\Debug\PeopleViewer_MarkupCompile.lref
-G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\obj\Debug\PeopleViewerWindow.baml
-G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\obj\Debug\PeopleViewer.g.resources
 G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\obj\Debug\PeopleViewer.Properties.Resources.resources
 G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\obj\Debug\PeopleViewer.csproj.GenerateResource.cache
 G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\obj\Debug\PeopleViewer.csproj.CopyComplete
@@ -19,3 +15,5 @@ G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\obj\Debug
 G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\obj\Debug\PeopleViewer.pdb
 G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\bin\Debug\PersonDataReader.Service.dll
 G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\bin\Debug\PersonDataReader.Service.pdb
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\bin\Debug\PeopleViewer.View.dll
+G:\Learning Phase\DependencyInjection\DependencyInjection\PeopleViewer\bin\Debug\PeopleViewer.View.pdb

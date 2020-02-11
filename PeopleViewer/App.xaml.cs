@@ -19,15 +19,15 @@ namespace PeopleViewer
         {
             base.OnStartup(e);
             ComposeObjects();
-            Application.Current.MainWindow.Title = "With Dependency Injection";
-            Application.Current.MainWindow.Show();
+            Current.MainWindow.Title = "With Dependency Injection";
+            Current.MainWindow.Show();
         }
 
         private static void ComposeObjects()
         {
             var reader = new ServiceReader();
             var viewModel = new PeopleViewModel(reader);
-            Application.Current.MainWindow = new PeopleViewerWindow(viewModel);
+            Current.MainWindow = new PeopleViewerWindow(viewModel);
         }
     }
 }

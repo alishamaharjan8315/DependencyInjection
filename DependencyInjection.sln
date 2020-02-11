@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-View", "1-View", "{060DE265-59FE-4448-A7D8-E56FF6DEDD89}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Bootstrapper", "0-Bootstrapper", "{060DE265-59FE-4448-A7D8-E56FF6DEDD89}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Presentation", "2-Presentation", "{953E96F1-2A30-4A3D-9143-84806A584061}"
 EndProject
@@ -22,6 +22,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "People.Service", "People.Service\People.Service.csproj", "{6AD66B0A-1E51-46B8-B4F1-5F150DABF1DB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleViewer.Common", "PeopleViewer.Common\PeopleViewer.Common.csproj", "{59DB5C8D-05D0-42F6-9634-F12B0FF6976D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-View", "1-View", "{6BB4D4FF-522A-4620-9DEF-0993362B21F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleViewer.View", "PeopleViewer.View\PeopleViewer.View.csproj", "{29D8DFBE-139C-4DAF-A601-4966B12A821B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{59DB5C8D-05D0-42F6-9634-F12B0FF6976D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59DB5C8D-05D0-42F6-9634-F12B0FF6976D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59DB5C8D-05D0-42F6-9634-F12B0FF6976D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D8DFBE-139C-4DAF-A601-4966B12A821B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D8DFBE-139C-4DAF-A601-4966B12A821B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D8DFBE-139C-4DAF-A601-4966B12A821B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D8DFBE-139C-4DAF-A601-4966B12A821B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{B0AEAA54-516E-4129-99A3-73CB0C2DC4D8} = {A4B8BC6B-BEE1-4521-AC33-11074CE5F402}
 		{6AD66B0A-1E51-46B8-B4F1-5F150DABF1DB} = {503B96CA-1FA0-46CE-95E6-CF86492AEEB2}
 		{59DB5C8D-05D0-42F6-9634-F12B0FF6976D} = {85BC8930-2451-4AB4-8549-3067F1F3F513}
+		{29D8DFBE-139C-4DAF-A601-4966B12A821B} = {6BB4D4FF-522A-4620-9DEF-0993362B21F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F9BA9C8-9DDD-46B0-80A1-7A1A6FF8EABF}

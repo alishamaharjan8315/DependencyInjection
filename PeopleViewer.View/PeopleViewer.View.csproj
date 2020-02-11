@@ -4,19 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C23ECF53-69AE-4104-8386-1826EB11E278}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>PeopleViewer</RootNamespace>
-    <AssemblyName>PeopleViewer</AssemblyName>
+    <ProjectGuid>{29D8DFBE-139C-4DAF-A601-4966B12A821B}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <RootNamespace>PeopleViewer.View</RootNamespace>
+    <AssemblyName>PeopleViewer.View</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -26,7 +24,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -51,16 +48,9 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-      <SubType>Code</SubType>
+    <Compile Include="PeopleViewerWindow.xaml.cs">
+      <DependentUpon>PeopleViewerWindow.xaml</DependentUpon>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -84,25 +74,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\PeopleViewer.Common\PeopleViewer.Common.csproj">
-      <Project>{59DB5C8D-05D0-42F6-9634-F12B0FF6976D}</Project>
+      <Project>{59db5c8d-05d0-42f6-9634-f12b0ff6976d}</Project>
       <Name>PeopleViewer.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\PeopleViewer.Presentation\PeopleViewer.Presentation.csproj">
-      <Project>{023C5CF4-B319-4E99-8668-DFB6BD02053F}</Project>
+      <Project>{023c5cf4-b319-4e99-8668-dfb6bd02053f}</Project>
       <Name>PeopleViewer.Presentation</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PeopleViewer.View\PeopleViewer.View.csproj">
-      <Project>{29d8dfbe-139c-4daf-a601-4966b12a821b}</Project>
-      <Name>PeopleViewer.View</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PersonDataReader.Service\PersonDataReader.Service.csproj">
-      <Project>{B0AEAA54-516E-4129-99A3-73CB0C2DC4D8}</Project>
-      <Name>PersonDataReader.Service</Name>
-    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="PeopleViewerWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
