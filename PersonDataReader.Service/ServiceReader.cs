@@ -6,7 +6,7 @@ using System.Net;
 
 namespace PersonDataReader.Service
 {
-    public class ServiceReader
+    public class ServiceReader : IPersonReader
     {
         //Can use HttpClient
         WebClient client = new WebClient();

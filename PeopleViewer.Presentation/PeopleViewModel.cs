@@ -10,7 +10,7 @@ namespace PeopleViewer.Presentation
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected ServiceReader DataReader;
+        protected IPersonReader DataReader;
 
         private IEnumerable<Person> _people;
         public IEnumerable<Person> People;
